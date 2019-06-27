@@ -1,0 +1,107 @@
+.tl {
+    position:absolute;
+    top:1%;
+    left:2%;
+    right:35%;
+    bottom:45%;
+    font-size: 25px;
+    background-image: url("C:/Users/SnehilDB/Desktop/HTML/html/cloud1.png");
+    background-repeat: no-repeat;
+    background-size: 500px 270px; 
+}
+
+.tla{
+    position: absolute;
+    top:9%;
+    left: 6%;
+    right: 40%;
+    bottom: 75%;
+    
+    font-size: 22px;
+
+}
+
+
+
+.center{
+    position:absolute;
+    top:40%;
+    left:30%;
+    right:30%;
+    bottom:20%;
+    font-size: 25px;     
+}
+.circle-container {
+    	position: absolute;
+        width: 75em;
+    	height: 50em;
+    	 	
+    	
+    	margin: 1.5em auto 0;
+    }
+    .circle-container a {
+        
+    	display: block;
+    	position: absolute;
+    	top: 50%; left: 53%;
+    	width: 10em; height: 10em;
+    	margin: -2em;
+    }
+    .circle-container img { display: block; width: 30%; }
+    .deg0 { transform: translate(14em); } /* 12em = half the width of the wrapper */
+    .deg45 { transform: rotate(45deg) translate(14em) rotate(-45deg); }
+    .deg135 { transform: rotate(135deg) translate(14em) rotate(-135deg); }
+    .deg180 { transform: translate(-14em); }
+    .deg225 { transform: rotate(225deg) translate(14em) rotate(-225deg); }
+    .deg315 { transform: rotate(315deg) translate(14em) rotate(-315deg); }
+
+
+
+    .interest{
+        font-size: 20px;
+        position: absolute;
+        right:75%;
+        top:57%;
+        left:4%;
+        bottom:2%;
+        color: brown;
+        
+    }
+    .workexperience{
+        position: absolute;
+        top:5%;
+        right: 290%;
+        left:83%;
+        bottom: 90%;
+        
+    }
+    .frameinterest{
+        position: absolute;
+        top:230px;
+        bottom:1px;
+        left:-70px;
+        right: 500px;
+        
+    }
+  
+    .workexperienceborder{
+        position: absolute;
+        top:10px;
+        right:10px;
+        left:900px;
+        bottom:-110px;
+        box-shadow: 5px 5px 5px 5px black;
+
+    }
+   #myimage1:hover{
+    transform : rotate(45deg);
+   } 
+
+   .textwork{
+    position: absolute;
+        top:100px;
+        right:15px;
+        left:920px;
+        bottom:60px;
+
+   }

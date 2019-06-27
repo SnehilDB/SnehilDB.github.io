@@ -1,13 +1,13 @@
 .tl {
     position:absolute;
     top:1%;
-    left:2%;
+    left:4%;
     right:35%;
     bottom:45%;
     font-size: 25px;
     background-image: url("cloud1.png");
     background-repeat: no-repeat;
-    background-size: 500px 270px; 
+    background-size: 500px 200px; 
 }
 
 .tla{
@@ -15,9 +15,9 @@
     top:9%;
     left: 6%;
     right: 40%;
-    bottom: 75%;
+    bottom: 85%;
     
-    font-size: 22px;
+    font-size: 18px;
 
 }
 
@@ -58,12 +58,15 @@
 
 
     .interest{
-        font-size: 20px;
+        background-image: url("notesinterest.png");
+        background-repeat: no-repeat;
+        font-size: 18px;
+        border-image-width: 70px;
         position: absolute;
-        right:75%;
-        top:57%;
-        left:4%;
-        bottom:2%;
+        right:70%;
+        top:55%;
+        left:1%;
+        bottom:1%;
         color: brown;
         
     }
@@ -75,21 +78,21 @@
         bottom: 90%;
         
     }
-    .frameinterest{
+   /* .frameinterest{
         position: absolute;
         top:230px;
         bottom:1px;
         left:-70px;
         right: 500px;
         
-    }
+    }*/
   
     .workexperienceborder{
         position: absolute;
         top:10px;
         right:10px;
         left:900px;
-        bottom:-110px;
+        bottom:-150px;
         box-shadow: 5px 5px 5px 5px black;
 
     }
@@ -105,3 +108,37 @@
         bottom:60px;
 
    }
+#git{
+    position: absolute;
+    top:120%;
+    left:5%;
+    right:40%;
+    bottom: -50%;
+    padding: 5px;
+   
+
+}
+.table{
+    position: absolute;
+    top:120%;
+    left:5%;
+    right:40%;
+    bottom: -50%;
+    padding: 5px;
+    border: 2px black solid;
+    margin: 2px ;
+
+
+}
+#time{
+
+position: absolute;
+top:2%;
+bottom:90%;
+left:63%;
+right:30%;
+box-shadow: 5px 5px 5px 5px black;
+font-size: 20px;
+margin: 2px;
+text-align: center;
+}
